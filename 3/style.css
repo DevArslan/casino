@@ -3,6 +3,7 @@ html{
 }
 body{
     margin:0;
+    padding:0;
 }
 p{
     margin:0;
@@ -353,23 +354,36 @@ a{
 .description-image{
     width: 46.8%;
 }
+.gradient{
+    /* background: linear-gradient(rgb(255, 255, 255,1), rgb(255, 255, 255,0)); */
+    background: linear-gradient(red, blue)
+    
+}
 .text-container{
+    color:black;
     width: 22rem;
     /* background: linear-gradient(rgb(255, 255, 255,1), rgb(255, 255, 255,0)); */
     
     /* -webkit-background-clip: text;
     background-attachment:fixed; */
     /* -webkit-text-fill-color: transparent; */
-    /* overflow-y: scroll; */
+
+    /* overflow-y: scroll;
     mix-blend-mode: screen;
-    background:white;
+    background-image: url('images/background3.png'); */
+
     /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));  */
     line-height: 188%;
+
+    /* background-color:white; */
+    background: url('images/background3.png');
+    mix-blend-mode: screen; 
+    /* overflow-y:scroll;  */
+
+
 }
-.gradient{
-    background: linear-gradient(rgb(255, 255, 255,1), rgb(255, 255, 255,0));
-}
-.text-container::-webkit-scrollbar {
+
+/* .text-container::-webkit-scrollbar {
     width: 1rem;
     height: 2rem;
 }
@@ -384,7 +398,7 @@ a{
   border:1px solid #A5A9B4;
   outline: 1px solid slategrey;
   width: 1rem;
-}
+} */
 
 .slider{
     transform: rotate(90deg);
