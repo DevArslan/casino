@@ -423,6 +423,12 @@ a{
 }
 .selectArrows-left .arrowLeft{
     transform: rotate(180deg);
+    width: 30%;
+    height: 30%;
+}
+.selectArrows-right .arrowRight{
+    width: 30%;
+    height: 30%;
 }
 .selectArrows-right{
     border:1px solid #A5A9B4;
