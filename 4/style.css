@@ -19,15 +19,15 @@ a{
 .wrapper{
     font-family: 'Oswald', sans-serif;
     /* height: 53.3vw; */
-    height: 48.3vw;
-    width: 67.96vw;
+    /* height: 48.3vw; */
+    width: 100vw;
     margin: 0 auto;
     box-sizing: border-box;
     border: 1px solid #ffffff;
     background-repeat: no-repeat;
     background-image: url('images/backgroundTable.png');
     background-position: center; 
-    background-size: contain;
+    background-size: 100%;
     letter-spacing: 2px;
     color:#ffffff;
     text-transform: uppercase;
@@ -494,7 +494,7 @@ a{
 }
 
 .gameProps{
-    margin-right: 37%;
+    margin-right: 41%;
 }
 .possibleWin{
     display: flex;
@@ -554,7 +554,7 @@ a{
     border: 0.1rem solid #C2A5FF;
 }
 .wrapper-footer{
-    margin-top: 13%;
+    margin-top: 9.8%;
     display: flex;
     justify-content: space-between;
 }
