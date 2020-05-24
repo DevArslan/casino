@@ -21,6 +21,7 @@ a{
     /* height: 53.3vw; */
     /* height: 48.3vw; */
     width: 100vw;
+    height: 100vh;
     margin: 0 auto;
     box-sizing: border-box;
     border: 1px solid #ffffff;
@@ -633,3 +634,8 @@ a{
 .balance-count > p{
     margin-left:10%;
 }
+@media screen and (max-width:800px) {
+    .wrapper-footer{
+        margin-top: 30.8%;
+    }
+  }
