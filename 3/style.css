@@ -1,5 +1,6 @@
 html{
-    font-size: 1.45vw;
+    /* font-size: 1.45vw; */
+    font-size: 1.09vw;
 }
 body{
     margin:0;
@@ -15,21 +16,30 @@ a{
 .wrapper{
     font-family: 'Oswald', sans-serif;
 
-    height: 71.06vw;
-    width: 100vw;
+    /* height: 71.06vw;
+    width: 100vw; */
+    height: 48.3vw;
+    width: 67.96vw;
+    /* height: 1024px;
+    width: 1440px; */
     margin: 0 auto;
     box-sizing: border-box;
     border: 1px solid #ffffff;
     background-repeat: no-repeat;
-    background-image: url('images/background3.png');
-    background-position: center; 
+    background-image: url('images/background4.png');
+    background-position: center;
     background-size: contain;
     letter-spacing: 2px;
 
 }
 .main{
-    width: 76.32%;
-    height: 78.125%;
+    /* background-repeat: no-repeat;
+    background-image: url('images/rouletteBG.png');
+    background-position: center;  */
+    /* width: 76.32%;
+    height: 78.125%; */
+    width: 51.87vw;
+    height: 37.73vw;
     margin: 5.2% auto 0  auto;
 }
 .main-header{
